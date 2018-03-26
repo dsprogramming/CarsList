@@ -1,0 +1,465 @@
+[
+ {
+ "car_id" : 1,
+ "car_type" : "sedan",
+ "car_model" : "Volkswagen Tiguan",
+ "car_color" : "green",
+ "owners": [
+            {
+            "owner_id" : 1,
+            "owner_name" : "Ivan",
+            "owner_phone" : "+38012345678"
+            },
+            {
+            "owner_id" : 1,
+            "owner_name" : "Alex",
+            "owner_phone" : ""
+            },
+            {
+            "owner_id" : 1,
+            "owner_name" : "Denny",
+            "owner_phone" : "+38012345678"
+            }
+            ]
+ },
+ {
+ "car_id" : 1,
+ "car_type" : "baquet",
+ "car_model" : "BMW A4",
+ "car_color" : "red",
+ "owners": [
+            {
+            "owner_id" : 1,
+            "owner_name" : "Ivan",
+            "owner_phone" : "+38012345678"
+            }
+            ]
+ },
+ {
+ "car_id" : 1,
+ "car_type" : "tourer",
+ "car_model" : "Lamborghini K",
+ "car_color" : "blue",
+ "owners": [
+            {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },
+            {
+            "owner_id" : 2,
+            "owner_name" : "",
+            "owner_phone" : "+38012345678"
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : ""
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "",
+            "owner_phone" : ""
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            }
+            ]
+ },
+ {
+ "car_id" : 1,
+ "car_type" : "",
+ "car_model" : "Toyota Camry",
+ "car_color" : "black",
+ "owners": []
+ },
+ {
+ "car_id" : 1,
+ "car_type" : "sedan",
+ "car_model" : "Ford Fiesta",
+ "car_color" : "yellow",
+ "owners": []
+ },
+ {
+ "car_id" : 1,
+ "car_type" : "wagon",
+ "car_model" : "Nissan Juke",
+ "car_color" : "white",
+ "owners": [
+            {
+            "owner_id" : 1,
+            "owner_name" : "Ivan",
+            "owner_phone" : "+38012345678"
+            }
+            ]
+ },
+ {
+ "car_id" : 1,
+ "car_type" : "sedan",
+ "car_model" : "Mercedes GLE",
+ "car_color" : "yellow",
+ "owners": [
+            {
+            "owner_id" : 1,
+            "owner_name" : "Ivan",
+            "owner_phone" : "+38012345678"
+            }
+            ]
+ },
+ {
+ "car_id" : 1,
+ "car_type" : "hydbrid",
+ "car_model" : "",
+ "car_color" : "red",
+ "owners": [
+            {
+            "owner_id" : 1,
+            "owner_name" : "Petr",
+            "owner_phone" : "+38012345678"
+            },
+            {
+            "owner_id" : 1,
+            "owner_name" : "Petr",
+            "owner_phone" : "+38012345678"
+            }
+            ]
+ },
+ {
+ "car_id" : 1,
+ "car_type" : "sedan",
+ "car_model" : "Suzuki Vitara",
+ "car_color" : "red",
+ "owners": [
+            {
+            "owner_id" : 1,
+            "owner_name" : "Anna",
+            "owner_phone" : ""
+            },
+            {
+            "owner_id" : 1,
+            "owner_name" : "Ivan",
+            "owner_phone" : "+38012345678"
+            }
+            ]
+ },
+ {
+ "car_id" : 1,
+ "car_type" : "sedan",
+ "car_model" : "Renault Sandero",
+ "car_color" : "blue",
+ "owners": [
+            {
+            "owner_id" : 1,
+            "owner_name" : "Ivan",
+            "owner_phone" : "+38012345678"
+            },
+            {
+            "owner_id" : 1,
+            "owner_name" : "",
+            "owner_phone" : "+38012345678"
+            }
+            ]
+ },
+ {
+ "car_id" : 1,
+ "car_type" : "sedan",
+ "car_model" : "Mazda CX-5",
+ "car_color" : "green",
+ "owners": [
+            {
+            "owner_id" : 1,
+            "owner_name" : "Ivan",
+            "owner_phone" : "+38012345678"
+            }
+            ]
+ },
+ {
+ "car_id" : 1,
+ "car_type" : "sedan",
+ "car_model" : "Suzuki Swift",
+ "car_color" : "white",
+ "owners": [
+            {
+            "owner_id" : 1,
+            "owner_name" : "Ivan",
+            "owner_phone" : "+38012345678"
+            }
+            ]
+ },
+ 
+ {
+ "car_id" : 2,
+ "car_type" : "hydbrid/electric",
+ "car_model" : "Volkswagen Golf",
+ "car_color" : "blue",
+ "owners": [
+            {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },
+            {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            },             {
+            "owner_id" : 2,
+            "owner_name" : "Anton",
+            "owner_phone" : "+38012345678"
+            }
+            ]
+ },
+ {
+ "car_id" : 3,
+ "car_type" : "wagon",
+ "car_model" : "Toyota Camry",
+ "car_color" : "black",
+ "owners": [
+            {
+            "owner_id" : 3,
+            "owner_name" : "Stepan",
+            "owner_phone" : "+38012345678"
+            },
+            {
+            "owner_id" : 3,
+            "owner_name" : "Stepan",
+            "owner_phone" : "+38012345678"
+            },
+            {
+            "owner_id" : 3,
+            "owner_name" : "Stepan",
+            "owner_phone" : "+38012345678"
+            },
+            {
+            "owner_id" : 3,
+            "owner_name" : "Stepan",
+            "owner_phone" : "+38012345678"
+            }
+            ]
+ },
+ 
+ {
+ "car_id" : 3,
+ "car_type" : "wagon",
+ "car_model" : "Ford Focus",
+ "car_color" : "black",
+ "owners": [
+            {
+            "owner_id" : 3,
+            "owner_name" : "Stepan",
+            "owner_phone" : "+38012345678"
+            },
+            {
+            "owner_id" : 3,
+            "owner_name" : "Stepan",
+            "owner_phone" : "+38012345678"
+            },
+            {
+            "owner_id" : 3,
+            "owner_name" : "Stepan",
+            "owner_phone" : "+38012345678"
+            },
+            {
+            "owner_id" : 3,
+            "owner_name" : "Stepan",
+            "owner_phone" : "+38012345678"
+            }
+            ]
+ },
+ {
+ "car_id" : 3,
+ "car_type" : "wagon",
+ "car_model" : "Ford Focus",
+ "car_color" : "black",
+ "owners": [
+            {
+            "owner_id" : 3,
+            "owner_name" : "Stepan",
+            "owner_phone" : "+38012345678"
+            },
+            {
+            "owner_id" : 3,
+            "owner_name" : "Stepan",
+            "owner_phone" : "+38012345678"
+            },
+            {
+            "owner_id" : 3,
+            "owner_name" : "Stepan",
+            "owner_phone" : "+38012345678"
+            },
+            {
+            "owner_id" : 3,
+            "owner_name" : "Stepan",
+            "owner_phone" : "+38012345678"
+            }
+            ]
+ },
+ {
+ "car_id" : 3,
+ "car_type" : "wagon",
+ "car_model" : "Ravon R2",
+ "car_color" : "black",
+ "owners": [
+            {
+            "owner_id" : 3,
+            "owner_name" : "Stepan",
+            "owner_phone" : "+38012345678"
+            },
+            {
+            "owner_id" : 3,
+            "owner_name" : "Stepan",
+            "owner_phone" : "+38012345678"
+            },
+            {
+            "owner_id" : 3,
+            "owner_name" : "Stepan",
+            "owner_phone" : "+38012345678"
+            },
+            {
+            "owner_id" : 3,
+            "owner_name" : "Stepan",
+            "owner_phone" : "+38012345678"
+            }
+            ]
+ },
+ {
+ "car_id" : 3,
+ "car_type" : "wagon",
+ "car_model" : "Toyota Corolla",
+ "car_color" : "black",
+ "owners": [
+            {
+            "owner_id" : 3,
+            "owner_name" : "Stepan",
+            "owner_phone" : "+38012345678"
+            },
+            {
+            "owner_id" : 3,
+            "owner_name" : "Stepan",
+            "owner_phone" : "+38012345678"
+            },
+            {
+            "owner_id" : 3,
+            "owner_name" : "Stepan",
+            "owner_phone" : "+38012345678"
+            },
+            {
+            "owner_id" : 3,
+            "owner_name" : "Stepan",
+            "owner_phone" : "+38012345678"
+            }
+            ]
+ },
+ 
+ {
+ "car_id" : 4,
+ "car_type" : "wagon",
+ "car_model" : "Hyundai Tucson",
+ "car_color" : "black",
+ "owners": []
+ }
+ 
+ ]

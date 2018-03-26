@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="z5v-q8-cSH">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <development version="8000" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Cars List View Controller-->
+        <scene sceneID="Usv-8y-pot">
+            <objects>
+                <viewController id="z5v-q8-cSH" customClass="CarsListViewController" customModule="CarsList" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fPy-rH-w7N"/>
+                        <viewControllerLayoutGuide type="bottom" id="L3N-iZ-4b9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GoK-cs-QSh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ybd-oW-v4o">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="z5v-q8-cSH" id="pxw-LZ-q4m"/>
+                                    <outlet property="delegate" destination="z5v-q8-cSH" id="PRd-kd-4GX"/>
+                                </connections>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select a list of Cars" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AwW-aa-E1f">
+                                <rect key="frame" x="48" y="257" width="224" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="224" id="Ve4-rC-w5z"/>
+                                    <constraint firstAttribute="height" constant="54" id="yzh-jR-sTd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="AwW-aa-E1f" firstAttribute="centerX" secondItem="GoK-cs-QSh" secondAttribute="centerX" id="0zf-6J-II2"/>
+                            <constraint firstItem="L3N-iZ-4b9" firstAttribute="top" secondItem="ybd-oW-v4o" secondAttribute="bottom" id="BGF-Dk-b0i"/>
+                            <constraint firstItem="ybd-oW-v4o" firstAttribute="leading" secondItem="GoK-cs-QSh" secondAttribute="leading" id="KoS-Bm-GaS"/>
+                            <constraint firstItem="ybd-oW-v4o" firstAttribute="top" secondItem="fPy-rH-w7N" secondAttribute="bottom" id="ZiM-lA-iZt"/>
+                            <constraint firstAttribute="trailing" secondItem="ybd-oW-v4o" secondAttribute="trailing" id="f9p-Tq-3Ma"/>
+                            <constraint firstItem="AwW-aa-E1f" firstAttribute="centerY" secondItem="GoK-cs-QSh" secondAttribute="centerY" id="qQ0-Ue-WZE"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZkU-Ly-aCG"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="selectListLabel" destination="AwW-aa-E1f" id="AOz-2o-CKi"/>
+                        <outlet property="tableView" destination="ybd-oW-v4o" id="TcJ-6d-i8w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B8W-RV-eH4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-294" y="50"/>
+        </scene>
+    </scenes>
+</document>
